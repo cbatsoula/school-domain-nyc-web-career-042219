@@ -21,7 +21,7 @@ class School
   end
     
   def sort
-    
+    @name.each 
   end
   
 end
