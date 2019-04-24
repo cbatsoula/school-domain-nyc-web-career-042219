@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_accessor :name, :roster
    def initialize (name)
@@ -34,7 +36,7 @@ end
   # => { key (grade) => ["value", "value"]}
   
     sorted = {}
-    binding.pry
+  binding.pry
     roster.each do |grade, student|
       sorted << grade
       
