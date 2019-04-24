@@ -33,13 +33,13 @@ end
  
 
   def sort
-  # school.sort gives an alph. array of student names in a hash where the student names are the values and grade is the key
+  # school.sort gives an alph. array of student names within a hash, where the student names are the values and grade is the key
   # => { key (grade) => ["value", "value"]}
   
     sorted = {}
  
     roster.each do |grade, student|
-      
+      sorted << grade
       
     
   end
