@@ -22,7 +22,9 @@ class School
     
   def sort
     sorted = {}
-    @roster
+    roster
+    
+    
   end
   
 end
