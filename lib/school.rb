@@ -39,7 +39,7 @@ end
     sorted = {}
  
     roster.each do |grade, student|
-      sorted.store[]
+      sorted.store[:grade, ]
       
     
   end
