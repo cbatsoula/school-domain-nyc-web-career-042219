@@ -30,7 +30,8 @@ end
   def grade(grade)
     roster[grade]
   end
-    
+binding.pry    
+
   def sort
   # school.sort gives an alph. array of student names in a hash where the student names are the values and grade is the key
   # => { key (grade) => ["value", "value"]}
